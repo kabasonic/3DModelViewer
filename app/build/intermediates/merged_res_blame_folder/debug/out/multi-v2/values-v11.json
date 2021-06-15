@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/res/values-v11/styles.xml",
+                    "from": {
+                        "startLines": "8,20,12",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "225,820,373",
+                        "endLines": "10,22,18",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "365,981,812"
+                    },
+                    "to": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,198,362",
+                        "endLines": "4,7,14",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "193,357,795"
+                    }
+                }
+            ]
+        }
+    ]
+}

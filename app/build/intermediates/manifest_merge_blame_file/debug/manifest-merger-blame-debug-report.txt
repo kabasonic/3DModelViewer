@@ -1,0 +1,83 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.andresoviedo.dddmodel2"
+4    android:versionCode="29"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+7-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:8:5-9:82
+8        android:minSdkVersion="14"
+8-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:8:5-9:82
+9        android:targetSdkVersion="29" />
+9-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:8:5-9:82
+10
+11    <uses-feature
+11-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:11:5-13:35
+12        android:glEsVersion="0x00020000"
+12-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:12:9-41
+13        android:required="true" />
+13-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:13:9-32
+14
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:15:5-79
+15-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:15:22-77
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:16:5-67
+16-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:16:22-64
+17
+18    <application
+18-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:18:5-45:19
+19        android:allowBackup="true"
+19-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:19:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.5.0] /home/kabasonic/.gradle/caches/transforms-2/files-2.1/1602505273d43f41d2f450ba7fa6ad4f/core-1.5.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@drawable/ic_launcher"
+22-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:20:9-45
+23        android:label="@string/app_name"
+23-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:21:9-41
+24        android:largeHeap="true"
+24-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:22:57-81
+25        android:requestLegacyExternalStorage="true"
+25-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:23:9-52
+26        android:testOnly="true"
+27        android:theme="@style/Theme.AndroidModelViewer" >
+27-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:22:9-56
+28        <activity
+28-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:24:9-32:20
+29            android:name="org.kabasonic.app.model3D.MainActivity"
+29-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:25:13-66
+30            android:label="@string/app_name" >
+30-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:26:13-45
+31            <intent-filter>
+31-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:27:13-31:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:28:17-69
+32-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:28:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:30:17-77
+34-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:30:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:33:9-37:20
+38            android:name="org.kabasonic.app.model3D.view.MenuActivity"
+38-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:34:13-71
+39            android:label="@string/title_activity_menu"
+39-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:35:13-56
+40            android:parentActivityName="org.kabasonic.app.model3D.MainActivity" >
+40-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:36:13-80
+41        </activity>
+42        <activity
+42-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:39:9-44:20
+43            android:name="org.kabasonic.app.model3D.view.ModelActivity"
+43-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:40:13-72
+44            android:label="@string/title_activity_model"
+44-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:41:13-57
+45            android:parentActivityName="org.kabasonic.app.model3D.MainActivity" >
+45-->/home/kabasonic/AndroidStudioProjects/android-3D-model-viewer-master/app/src/main/AndroidManifest.xml:42:13-80
+46        </activity>
+47    </application>
+48
+49</manifest>

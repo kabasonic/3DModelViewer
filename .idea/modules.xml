@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-3D-model-viewer-master.iml" filepath="$PROJECT_DIR$/.idea/modules/android-3D-model-viewer-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-3D-model-viewer-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-3D-model-viewer-master.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/engine/android-3D-model-viewer-master.engine.iml" filepath="$PROJECT_DIR$/.idea/modules/engine/android-3D-model-viewer-master.engine.iml" />
+    </modules>
+  </component>
+</project>
