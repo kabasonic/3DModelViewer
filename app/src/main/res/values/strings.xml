@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">3D Model Viewer</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_model">Model</string>
+    <!-- Demo menu -->
+    <string name="item">item</string>
+
+    <string-array name="menu_items" tools:ignore="InconsistentArrays">
+        <item>Load Model</item>
+    </string-array>
+
+</resources>
